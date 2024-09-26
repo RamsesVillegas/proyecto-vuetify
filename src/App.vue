@@ -10,13 +10,15 @@
 
     <v-navigation-drawer v-model="drawer" app>
       <v-list>
-        <v-list-item>
-          <v-list-item-title>Inicio</v-list-item-title>
+        <v-list-item link>
+            <v-list-item-title>Inicio</v-list-item-title>
         </v-list-item>
         <v-list-item>
           <v-list-item-title>Configuración</v-list-item-title>
         </v-list-item>
-        <!-- Añade más elementos del menú aquí -->
+        <v-list-item>
+          <v-list-item-title prepend-icon="mdi-information-outline">Acerca</v-list-item-title>
+        </v-list-item>
       </v-list>
     </v-navigation-drawer>
 
